@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Featherweight</title>
+    <link rel="stylesheet" href="./resetCSS.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    
+    <nav>
+      <a href="./index.html" class="navigointi">Koti</a>
+      <button id="save" class="navigointi">Save</button>
+      <button id="load" class="navigointi">Load</button>
+      <button id="reset" class="navigointi">Reset</button>
+      <p id="version">0</p>
+    </nav>
+
+    <header>
+      <p>Trainers: <span id="trainers">1</span></p>
+      <p>hampaita: <span id="hampaita"> 0</span> &#x1F9B7;</p>
+      <p>hampaita/s: <span id="hampaitaPerSekunti"> 0</span> &#x1F9B7;</p>
+    </header>
+
+    <p class="weightLevel">
+      Featherweight Level
+      <span class="weightLevelNumber" id="featherweightLevel">0</span>
+    </p>
+    <div id="upgradeContainer"></div>
+
+    <div id="app" style="display: none;">
+      <div class="ottelijaContainer" id="edsonBarbozaContainer">
+        <div class="ottelija" id="edsonBarboza">
+          <img src="./assets/edsonBarboza.png" alt=""/>
+          <div class="ottelijaInfo" id="edsonBarbozaInfo">
+            <h2>Edson Barboza</h2>
+            <p>&#x1F4AA;power: <span id="edsonBarbozaPower">1</span></p>
+            <p>&#x1F9B6;speed: <span id="edsonBarbozaSpeed">1</span></p>
+          </div>
+          <div class="ottelijaLevel">
+            <p id="edsonBarbozaLevel">0</p>
+          </div>
+        </div>
+        <div class="barContainer" id="edsonBarbozaBarContainer">
+          <p>xp: <span id="edsonBarbozaXp">0</span>/<span id="edsonBarbozaXpThresh">10</span></p>
+          <div id="edsonBarbozaBar"></div>
+        </div>
+      </div>
+      <div class="ottelijaContainer" id="danIgeContainer">
+        <div class="ottelija" id="danIge">
+          <img src="./assets/danIge.png" alt="" />
+          <div class="ottelijaInfo" id="danIgeInfo">
+            <h2>Dan Ige</h2>
+            <p>&#x1F4AA;power:<span id="danIgePower">1</span></p>
+            <p>&#x1F9B6;speed:<span id="danIgeSpeed">1</span></p>
+          </div>
+          <div class="ottelijaLevel">
+            <p id="danIgeLevel">0</p>
+          </div>
+        </div>
+        <div class="barContainer" id="danIgeBarContainer">
+          <p>xp: <span id="danIgeXp">0</span>/<span id="danIgeXpThresh">10</span></p>
+          <div id="danIgeBar"></div>
+        </div>
+      </div>
+      <div class="ottelijaContainer" id="bryceMichellContainer">
+        <div class="ottelija" id="bryceMichell">
+          <img src="./assets/bryceMichell.png" alt="" />
+          <div class="ottelijaInfo" id="bryceMichellInfo">
+            <h2>Bryce Michell</h2>
+            <p>&#x1F4AA;power: <span id="bryceMichellPower">1</span></p>
+            <p>&#x1F9B6;speed: <span id="bryceMichellSpeed">1</span></p>
+          </div>
+          <div class="ottelijaLevel">
+            <p id="bryceMichellLevel">0</p>
+          </div>
+        </div>
+        <div class="barContainer" id="bryceMichellBarContainer">
+          <p>xp: <span id="bryceMichellXp">0</span>/<span id="bryceMichellXpThresh">10</span></p>
+          <div id="bryceMichellBar"></div>
+        </div>
+      </div>
+      <div class="ottelijaContainer" id="diegoLopezContainer">
+        <div class="ottelija" id="diegoLopez">
+          <img src="./assets/diegoLopez.png" alt="" />
+          <div class="ottelijaInfo" id="diegoLopezInfo">
+            <h2>Diego Lopez</h2>
+            <p>&#x1F4AA;power:<span id="diegoLopezPower">1</span></p>
+            <p>&#x1F9B6;speed:<span id="diegoLopezSpeed">1</span></p>
+          </div>
+          <div class="ottelijaLevel">
+            <p id="diegoLopezLevel">0</p>
+          </div>
+        </div>
+        <div class="barContainer" id="diegoLopezBarContainer">
+          <p>xp: <span id="diegoLopezXp">0</span>/<span id="diegoLopezXpThresh">10</span></p>
+          <div id="diegoLopezBar"></div>
+        </div>
+      </div>
+      <div class="ottelijaContainer" id="leroneMurphyContainer">
+        <div class="ottelija" id="leroneMurphy">
+          <img src="./assets/leroneMurphy.png" alt="" />
+          <div class="ottelijaInfo" id="leroneMurphyInfo">
+            <h2>Lerone Murphy</h2>
+            <p>&#x1F4AA;power: <span id="leroneMurphyPower">1</span></p>
+            <p>&#x1F9B6;speed: <span id="leroneMurphySpeed">1</span></p>
+          </div>
+          <div class="ottelijaLevel">
+            <p id="leroneMurphyLevel">0</p>
+          </div>
+        </div>
+        <div class="barContainer" id="leroneMurphyBarContainer">
+          <p>xp: <span id="leroneMurphyXp">0</span>/<span id="leroneMurphyXpThresh">10</span></p>
+          <div id="leroneMurphyBar"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./featherweight.js"></script>
+  </body>
+</html>

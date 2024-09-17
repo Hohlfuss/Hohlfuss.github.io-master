@@ -1,0 +1,123 @@
+0.0.3
+nyt on kaikki 12 ottelijaa ja kaikki toimii tähän mennessä
+
+0.0.4
+alan sählään noilla servereillä
+
+0.0.4a
+koko yö meni bunin ja honon servereiden kans kikkaillessa en oo varma edistykö yhtää
+
+0.0.4b
+pikkuhiljaa päästään takasi
+
+0.0.5
+alotellaan upgradeja uudestaan
+
+0.0.6
+
+0.0.7
+trainereitten pysäyttäminen toimii
+lisäsin shop itemin ostaa lisää trainereita
+lisäsin kasan upgradeja
+
+0.0.8
+upgradeja nii perkeleesti
+
+0.0.9
+speed ja power upgradet toimii
+
+0.0.11
+tosi hyvässä tilassa
+
+0.1.0
+numeroiden formatointia ja offlinegains
+
+0.1.1
+numero kikkailua
+
+0.1.2
+vedin uusiks upgare napit ja niiden ostamisen 
+pääsin myös eroon ku se herjas siitä osta funktiosta.
+
+0.1.3
+korjasin ottelijan oston että se ensin tarkistaa onko ulocked
+parantelin upgradenappeja
+
+0.1.4
+koodin siivoomista 
+ja sain rebithiä alkuun
+
+0.1.5
+perseilly koko yön.
+
+0.1.6
+kojasin upgradet ja niiden ostamis function on optimoitu.
+korjasin sen oudon tainer bugin ku päivitti sivun.
+
+0.1.8
+muutellu systeemeita aika rajusti koitan nyt saada flyweightiä alkuun.
+suunnitelma olis että heti alkuun on auki vaikka 3 paino luokkaa ja niitä voi ostaa lisää ja jokaiseen painoluokkaan voi kerätä xp
+jonka seurauksena unlockaa lisää ottelijoita sinne
+
+0.2.0
+monet jutut menny uusiks mutta nyt painoluokista unlockaa ekan ilmaiseksi seuraavat maksaa hampaita ja vaatii sen painoluokan leveliä
+suunnitelmissa lisätä jokaiselle ottelijalle viä oma mastery
+
+0.2.1
+offlineprogress xp ja hampaat
+
+0.2.2
+index.html uusiks
+
+0.2.4
+tosi hyvässä tilassa flyweight ja bantamweight alulla
+
+0.2.5
+lisätty featheweight
+
+0.2.6
+hirvee määrä bugeja korjattu tuntuu toimivan hyvi
+
+0.2.7
+koodia formatoitu nii vitusti prettyerin tekemi mokia korjannu.
+offline xp tienaaminen ottelijiolle toimii.
+
+0.2.8
+vitusti upgradeja
+
+0.2.9
+optimoin noin 1k rivejä pois formatoin html uusiks ja korjailin bugeja
+
+0.2.10
+css optimoitu mobiiliin
+
+0.2.11
+lisäsin lightweight.
+
+0.2.13
+kikkaillu paljon liittyen save/load ja offline progress
+lisäsin että updateUi() päivittää myös aina progressbarin tilanteen
+oon aika hyvin saanu intervalit jatkuun oikein sivun ladattaessa
+paha bugi oli xp tä ei nollattu levelin saataessa
+
+0.2.17
+paljo kaikkee. hampaita per sekunti toimii ny jotenki.
+
+0.2.19
+lisäsin welterweight
+
+0.2.20
+tilapäinen load multiple intervals bugi
+versio vaan servulle
+
+0.2.23
+offlinegains toimii taas ja ei saa montaa intervalia päällekkäin.
+upgradet tulossa takas mutta voi olla 
+että joudun kirjottaan jokaselle ottelijalle omat setit
+
+todo:
+
+  muista painoluokkia
+  mastery systeemi ottelijoille
+  upgradeja ottelijoille 
+  saada se offline gains toimiin

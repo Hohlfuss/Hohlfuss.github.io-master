@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welterweight</title>
+    <link rel="stylesheet" href="./resetCSS.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    
+    <nav>
+      <a href="./index.html" class="navigointi">Koti</a>
+      <button id="save" class="navigointi">Save</button>
+      <button id="load" class="navigointi">Load</button>
+      <button id="reset" class="navigointi">Reset</button>
+      <p id="version">0</p>
+    </nav>
+
+    <header>
+      <p>Trainers: <span id="trainers">1</span></p>
+      <p>hampaita: <span id="hampaita"> 0</span> &#x1F9B7;</p>
+      <p>hampaita/s: <span id="hampaitaPerSekunti"> 0</span> &#x1F9B7;</p>
+    </header>
+
+      <p class="weightLevel">Welterweight Level<span class="weightLevelNumber" id="welterweightLevel">0</span></p>
+
+      <div id="upgradeContainer"></div>
+
+      <div id="app" style="display: none;">
+        <div class="ottelijaContainer" id="neilMagnyContainer">
+          <div class="ottelija" id="neilMagny" >
+            <img src="./assets/neilMagny.png" alt=""/>
+            <div class="ottelijaInfo" id="neilMagnyInfo">
+              <h2>Neil Magny</h2>
+              <p>&#x1F4AA;power: <span id="neilMagnyPower">1</span></p>
+              <p>&#x1F9B6;speed: <span id="neilMagnySpeed">1</span></p>
+            </div>
+            <div class="ottelijaLevel">
+              <p id="neilMagnyLevel">0</p>
+            </div>
+          </div>
+          <div class="barContainer" id="neilMagnyBarContainer">
+            <p>xp: <span id="neilMagnyXp">0</span>/<span id="neilMagnyXpThresh">10</span></p>
+            <div id="neilMagnyBar"></div>
+          </div>
+        </div>
+        <div class="ottelijaContainer" id="vicenteLuqueContainer">
+          <div class="ottelija" id="vicenteLuque">
+            <img src="./assets/vicenteLuque.png" alt="" />
+            <div class="ottelijaInfo" id="vicenteLuqueInfo">
+              <h2>Vicente Luque</h2>
+              <p>&#x1F4AA;power:<span id="vicenteLuquePower">1</span></p>
+              <p>&#x1F9B6;speed:<span id="vicenteLuqueSpeed">1</span></p>
+            </div>
+            <div class="ottelijaLevel">
+                <p id="vicenteLuqueLevel">0</p>
+            </div>
+          </div>
+          <div class="barContainer" id="vicenteLuqueBarContainer">
+            <p>xp: <span id="vicenteLuqueXp">0</span>/<span id="vicenteLuqueXpThresh">10</span></p>
+            <div id="vicenteLuqueBar"></div>
+          </div>
+        </div>
+        <div class="ottelijaContainer" id="michaelPageContainer">
+          <div class="ottelija" id="michaelPage">
+            <img src="./assets/michaelPage.png" alt="" />
+            <div class="ottelijaInfo" id="michaelPageInfo">
+              <h2>Michael Page</h2>
+              <p>&#x1F4AA;power: <span id="michaelPagePower">1</span></p>
+              <p>&#x1F9B6;speed: <span id="michaelPageSpeed">1</span></p>
+            </div>
+            <div class="ottelijaLevel">
+              <p id="michaelPageLevel">0</p>
+            </div>
+          </div>
+          <div class="barContainer" id="michaelPageBarContainer">
+              <p>xp: <span id="michaelPageXp">0</span>/<span id="michaelPageXpThresh">10</span></p>
+              <div id="michaelPageBar"></div>
+          </div>
+        </div>
+        <div class="ottelijaContainer" id="michaelMoralesContainer">
+          <div class="ottelija" id="michaelMorales">
+            <img src="./assets/michaelMorales.png" alt="" />
+            <div class="ottelijaInfo" id="michaelMoralesInfo">
+              <h2>Michael Morales</h2>
+              <p>&#x1F4AA;power:<span id="michaelMoralesPower">1</span></p>
+              <p>&#x1F9B6;speed:<span id="michaelMoralesSpeed">1</span></p>
+            </div>
+            <div class="ottelijaLevel">
+              <p id="michaelMoralesLevel">0</p>
+            </div>
+          </div>
+          <div class="barContainer" id="michaelMoralesBarContainer">
+            <p>xp: <span id="michaelMoralesXp">0</span>/<span id="michaelMoralesXpThresh">10</span></p>
+            <div id="michaelMoralesBar"></div>
+          </div>
+        </div>
+        <div class="ottelijaContainer" id="joaquinBuckleyContainer">
+          <div class="ottelija" id="joaquinBuckley">
+            <img src="./assets/joaquinBuckley.png" alt="" />
+            <div class="ottelijaInfo" id="joaquinBuckleyInfo">
+              <h2>Joaquin Buckley</h2>
+              <p>&#x1F4AA;power: <span id="joaquinBuckleyPower">1</span></p>
+              <p>&#x1F9B6;speed: <span id="joaquinBuckleySpeed">1</span></p>
+            </div>
+            <div class="ottelijaLevel">
+              <p id="joaquinBuckleyLevel">0</p>
+            </div>
+          </div>
+          <div class="barContainer" id="joaquinBuckleyBarContainer">
+            <p>xp: <span id="joaquinBuckleyXp">0</span>/<span id="joaquinBuckleyXpThresh">10</span></p>
+            <div id="joaquinBuckleyBar"></div>
+          </div>
+        </div>
+      </div>
+
+    <script src="./main.js"></script>
+    <script src="./welterweight.js"></script>
+  </body>
+</html>

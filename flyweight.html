@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Featherweight</title>
+    <link rel="stylesheet" href="./resetCSS.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    
+    <nav>
+      <a href="./index.html" class="navigointi">Koti</a>
+      <button id="save" class="navigointi">Save</button>
+      <button id="load" class="navigointi">Load</button>
+      <button id="reset" class="navigointi">Reset</button>
+      <p id="version">0</p>
+    </nav>
+
+    <header>
+      <p>Trainers: <span id="trainers">1</span></p>
+      <p>hampaita: <span id="hampaita"> 0</span> &#x1F9B7;</p>
+      <p>hampaita/s: <span id="hampaitaPerSekunti"> 0</span> &#x1F9B7;</p>
+    </header>
+
+      <p class="weightLevel">Flyweight Level<span class="weightLevelNumber" id="flyweightLevel">0</span></p>
+
+      <div id="upgradeContainer"></div>
+
+      <div id="app" style="display: none;">
+        <div class="ottelijaContainer" id="codyDurdenContainer">
+          <div class="ottelija" id="codyDurden" >
+            <img src="./assets/codyDurden.png" alt=""/>
+            <div class="ottelijaInfo" id="codyDurdenInfo">
+              <h2>Cody Durden</h2>
+              <p>&#x1F4AA;power: <span id="codyDurdenPower">1</span></p>
+              <p>&#x1F9B6;speed: <span id="codyDurdenSpeed">1</span></p>
+            </div>
+            <div class="ottelijaLevel">
+              <p id="codyDurdenLevel">0</p>
+            </div>
+          </div>
+          <div class="barContainer" id="codyDurdenBarContainer">
+            <p>xp: <span id="codyDurdenXp">0</span>/<span id="codyDurdenXpThresh">10</span></p>
+            <div id="codyDurdenBar"></div>
+          </div>
+        </div>
+        <div class="ottelijaContainer" id="asuAlmabayevContainer">
+          <div class="ottelija" id="asuAlmabayev">
+            <img src="./assets/asuAlmabayev.png" alt="" />
+            <div class="ottelijaInfo" id="asuAlmabayevInfo"><h2>Asu Almabayev</h2>
+              <p>&#x1F4AA;power:<span id="asuAlmabayevPower">1</span></p>
+              <p>&#x1F9B6;speed:<span id="asuAlmabayevSpeed">1</span></p>
+            </div>
+            <div class="ottelijaLevel">
+                <p id="asuAlmabayevLevel">0</p>
+            </div>
+          </div>
+          <div class="barContainer" id="asuAlmabayevBarContainer">
+            <p>xp: <span id="asuAlmabayevXp">0</span>/<span id="asuAlmabayevXpThresh">10</span></p>
+            <div id="asuAlmabayevBar"></div>
+          </div>
+        </div>
+        <div class="ottelijaContainer" id="brunoSilvaContainer">
+          <div class="ottelija" id="brunoSilva">
+            <img src="./assets/brunoSilva.png" alt="" />
+            <div class="ottelijaInfo" id="brunoSilvaInfo">
+              <h2>Bruno Silva</h2>
+              <p>&#x1F4AA;power: <span id="brunoSilvaPower">1</span></p>
+              <p>&#x1F9B6;speed: <span id="brunoSilvaSpeed">1</span></p>
+            </div>
+            <div class="ottelijaLevel">
+              <p id="brunoSilvaLevel">0</p>
+            </div>
+          </div>
+          <div class="barContainer" id="brunoSilvaBarContainer">
+              <p>xp: <span id="brunoSilvaXp">0</span>/<span id="brunoSilvaXpThresh">10</span></p>
+              <div id="brunoSilvaBar"></div>
+          </div>
+        </div>
+        <div class="ottelijaContainer" id="tagirUlanbekovContainer">
+          <div class="ottelija" id="tagirUlanbekov">
+            <img src="./assets/tagirUlanbekov.png" alt="" />
+            <div class="ottelijaInfo" id="tagirUlanbekovInfo">
+              <h2>Tagir Ulanbekov</h2>
+              <p>&#x1F4AA;power:<span id="tagirUlanbekovPower">1</span></p>
+              <p>&#x1F9B6;speed:<span id="tagirUlanbekovSpeed">1</span></p>
+            </div>
+            <div class="ottelijaLevel">
+              <p id="tagirUlanbekovLevel">0</p>
+            </div>
+          </div>
+          <div class="barContainer" id="tagirUlanbekovBarContainer">
+            <p>xp: <span id="tagirUlanbekovXp">0</span>/<span id="tagirUlanbekovXpThresh">10</span></p>
+            <div id="tagirUlanbekovBar"></div>
+          </div>
+        </div>
+        <div class="ottelijaContainer" id="mattSchnellContainer">
+          <div class="ottelija" id="mattSchnell">
+            <img src="./assets/mattSchnell.png" alt="" />
+            <div class="ottelijaInfo" id="mattSchnellInfo">
+              <h2>Matt Schnell</h2>
+              <p>&#x1F4AA;power: <span id="mattSchnellPower">1</span></p>
+              <p>&#x1F9B6;speed: <span id="mattSchnellSpeed">1</span></p>
+            </div>
+            <div class="ottelijaLevel">
+              <p id="mattSchnellLevel">0</p>
+            </div>
+          </div>
+          <div class="barContainer" id="mattSchnellBarContainer">
+            <p>xp: <span id="mattSchnellXp">0</span>/<span id="mattSchnellXpThresh">10</span></p>
+            <div id="mattSchnellBar"></div>
+          </div>
+        </div>
+      </div>
+
+    <script src="./main.js"></script>
+    <script src="./saveAndLoad.js"></script>
+    <script src="./flyweight.js"></script>
+    <script src="./upgrades.js"></script>
+  </body>
+</html>

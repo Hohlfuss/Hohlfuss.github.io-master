@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MMAIdle</title>
+    <link rel="stylesheet" href="./resetCSS.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html" class="navigointi">Koti</a>
+      <!-- class="navigointi">Flyweight</a>
+      <a href="./bantamweight.html" class="navigointi">Bantamweight</a> -->
+      <!--<a href="./lukitutOttelijat.html" class="navigointi">Lukitut</a>-->
+      <button id="save" class="navigointi">Save</button>
+      <!--<button id="load">Load</button>-->
+      <button id="reset" class="navigointi">Reset</button>
+      <!--<button id="resetTrainers">Reset Trainers</button>-->
+      <p id="version">0</p>
+    </nav>
+
+  <header>
+    <p>Trainers: <span id="trainers">1</span></p>
+    <p>hampaita: <span id="hampaita"> 0</span> &#x1F9B7;</p>
+    <p>hampaita/s: <span id="hampaitaPerSekunti"> 0</span> &#x1F9B7;</p>
+  </header>
+
+  <div id="kokoPaska">
+    <h1 id="title">MMA Idle</h1>
+    <div id="weightContainer">
+
+      <div class="weightOption">
+        <a href="./flyweight.html"> <h3>Flyweight</h2></a>
+      </div>
+
+      <div class="weightOption">
+        <a href="./bantamweight.html"> <h3>Bantamweight</h2></a>
+      </div>
+      
+      <div class="weightOption">
+        <a href="./featherweight.html"> <h3>Featherweight</h2></a>
+      </div>
+
+      <div class="weightOption">
+        <a href="./lightweight.html"> <h3>Lightweight</h2></a>
+      </div>
+
+      <div class="weightOption">
+        <a href="./welterweight.html"> <h3>Welterweight</h2></a>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="upgradeContainer"></div>
+
+  <script src="./main.js"></script>
+  </body>
+</html>

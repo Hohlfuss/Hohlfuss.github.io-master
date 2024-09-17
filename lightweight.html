@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lightweight</title>
+    <link rel="stylesheet" href="./resetCSS.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    
+    <nav>
+      <a href="./index.html" class="navigointi">Koti</a>
+      <button id="save" class="navigointi">Save</button>
+      <button id="load" class="navigointi">Load</button>
+      <button id="reset" class="navigointi">Reset</button>
+      <p id="version">0</p>
+    </nav>
+
+    <header>
+      <p>Trainers: <span id="trainers">1</span></p>
+      <p>hampaita: <span id="hampaita"> 0</span> &#x1F9B7;</p>
+      <p>hampaita/s: <span id="hampaitaPerSekunti"> 0</span> &#x1F9B7;</p>
+    </header>
+
+    <p class="weightLevel">Lightweight Level<span class="weightLevelNumber" id="lightweightLevel">0</span></p>
+
+    <div id="upgradeContainer"></div>
+
+    <div id="app" style="display: none;">
+      <div class="ottelijaContainer" id="paddyPimblettContainer">
+        <div class="ottelija" id="paddyPimblett" >
+          <img src="./assets/paddyPimblett.png" alt=""/>
+          <div class="ottelijaInfo" id="paddyPimblettInfo">
+            <h2>Paddy Pimblett</h2>
+            <p>&#x1F4AA;power: <span id="paddyPimblettPower">1</span></p>
+            <p>&#x1F9B6;speed: <span id="paddyPimblettSpeed">1</span></p>
+          </div>
+          <div class="ottelijaLevel">
+            <p id="paddyPimblettLevel">0</p>
+          </div>
+        </div>
+        <div class="barContainer" id="paddyPimblettBarContainer">
+          <p>xp: <span id="paddyPimblettXp">0</span>/<span id="paddyPimblettXpThresh">10</span></p>
+          <div id="paddyPimblettBar"></div>
+        </div>
+      </div>
+      <div class="ottelijaContainer" id="jalinTurnerContainer">
+        <div class="ottelija" id="jalinTurner">
+          <img src="./assets/jalinTurner.png" alt="" />
+          <div class="ottelijaInfo" id="jalinTurnerInfo">
+            <h2>Jalin Turner</h2>
+            <p>&#x1F4AA;power:<span id="jalinTurnerPower">1</span></p>
+            <p>&#x1F9B6;speed:<span id="jalinTurnerSpeed">1</span></p>
+          </div>
+          <div class="ottelijaLevel">
+              <p id="jalinTurnerLevel">0</p>
+          </div>
+        </div>
+        <div class="barContainer" id="jalinTurnerBarContainer">
+          <p>xp: <span id="jalinTurnerXp">0</span>/<span id="jalinTurnerXpThresh">10</span></p>
+          <div id="jalinTurnerBar"></div>
+        </div>
+      </div>
+      <div class="ottelijaContainer" id="rafaelDosAnjosContainer">
+        <div class="ottelija" id="rafaelDosAnjos">
+          <img src="./assets/rafaelDosAnjos.png" alt="" />
+          <div class="ottelijaInfo" id="rafaelDosAnjosInfo">
+            <h2>Rafael Dos Anjos</h2>
+            <p>&#x1F4AA;power: <span id="rafaelDosAnjosPower">1</span></p>
+            <p>&#x1F9B6;speed: <span id="rafaelDosAnjosSpeed">1</span></p>
+          </div>
+          <div class="ottelijaLevel">
+            <p id="rafaelDosAnjosLevel">0</p>
+          </div>
+        </div>
+        <div class="barContainer" id="rafaelDosAnjosBarContainer">
+          <p>xp: <span id="rafaelDosAnjosXp">0</span>/<span id="rafaelDosAnjosXpThresh">10</span></p>
+          <div id="rafaelDosAnjosBar"></div>
+        </div>
+      </div>
+      <div class="ottelijaContainer" id="benoitSaintDenisContainer">
+        <div class="ottelija" id="benoitSaintDenis">
+          <img src="./assets/benoitSaintDenis.png" alt="" />
+          <div class="ottelijaInfo" id="benoitSaintDenisInfo">
+            <h2>Benoit Saint Denis</h2>
+            <p>&#x1F4AA;power:<span id="benoitSaintDenisPower">1</span></p>
+            <p>&#x1F9B6;speed:<span id="benoitSaintDenisSpeed">1</span></p>
+          </div>
+          <div class="ottelijaLevel">
+            <p id="benoitSaintDenisLevel">0</p>
+          </div>
+        </div>
+        <div class="barContainer" id="benoitSaintDenisBarContainer">
+          <p>xp: <span id="benoitSaintDenisXp">0</span>/<span id="benoitSaintDenisXpThresh">10</span></p>
+          <div id="benoitSaintDenisBar"></div>
+        </div>
+      </div>
+      <div class="ottelijaContainer" id="renatoMoicanoContainer">
+        <div class="ottelija" id="renatoMoicano">
+          <img src="./assets/renatoMoicano.png" alt="" />
+          <div class="ottelijaInfo" id="renatoMoicanoInfo">
+            <h2>Renato Moicano</h2>
+            <p>&#x1F4AA;power: <span id="renatoMoicanoPower">1</span></p>
+            <p>&#x1F9B6;speed: <span id="renatoMoicanoSpeed">1</span></p>
+          </div>
+          <div class="ottelijaLevel">
+            <p id="renatoMoicanoLevel">0</p>
+          </div>
+        </div>
+        <div class="barContainer" id="renatoMoicanoBarContainer">
+          <p>xp: <span id="renatoMoicanoXp">0</span>/<span id="renatoMoicanoXpThresh">10</span></p>
+          <div id="renatoMoicanoBar"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./lightweight.js"></script>
+  </body>
+</html>
