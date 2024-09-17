@@ -418,7 +418,7 @@ type Upgrades = {
 };
 
 let game: Game = {
-  version: "0.2.28",
+  version: "0.2.29",
   hampaita: 1.000,
   hampaitaPerSekunti: 0.0,
   totalPower: 0,
